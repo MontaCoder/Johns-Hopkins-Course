@@ -1,0 +1,63 @@
+ /* Styling the body */
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* Styling section, giving background
+      image and dimensions */
+    section {
+      width: 100%;
+      height: 100vh;
+      background:
+url('https://scontent.fnbe1-2.fna.fbcdn.net/v/t1.6435-9/122051803_3226204107503020_5180880247894410059_n.png?_nc_cat=111&ccb=1-7&_nc_sid=973b4a&_nc_ohc=fEVMJOWkfjYAX8JtNRH&_nc_ht=scontent.fnbe1-2.fna&oh=00_AfBXjc0hoxiSxc_HtrcN9NbbYXWQjxQW3RPx04xn4-nwRw&oe=63D99011');
+      background-size: cover;
+    }
+    
+    /* Styling the left floating section */
+    section .Box {
+      width: 50%;
+      height: 100%;
+       margin: auto;
+      float: center;
+      padding: 60px 0;
+      box-sizing: border-box;
+      
+    }
+    
+    /* Styling the background of
+      left floating section */
+    section .Box .content {
+      color: #fff;
+      background: rgba(0, 0, 0, 0.3);
+      padding: 50px;
+      margin: 30px;
+      transition: .5s;
+      text-align: center !important;
+    }
+    
+    /* Styling the hover effect
+      of left floating section */
+    section .Box .content:hover {
+      background: rgba(66, 143, 221, 0.5);
+    }
+    
+    /* Styling the header of left
+      floating section */
+    section .Box .content h1 {
+      margin: 10px;
+      padding: 10px;
+      font-size: 50px;
+      text-transform: uppercase;
+    
+    }
+    
+    /* Styling the paragraph of
+      left floating section */
+    section .Box .content p {
+      margin: 10px 0 0;
+      padding: 0;
+
+    }
+    
+    
