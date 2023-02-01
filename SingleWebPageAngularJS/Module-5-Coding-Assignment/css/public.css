@@ -113,49 +113,6 @@ h3.menu-item-title {
 }
 /* END SINGLE CATEGORY PAGE */
 
-/* SIGN UP */
-.signup {
-    margin: 0 auto;
-    padding: 20px;
-}
-.signup div:first-of-type {
-    width: 250px;
-    margin: 0 auto;
-}
-a {
-  color: green;
-}
-.signup-success {
-  color: green;
-  font-weight: bold;
-}
-.signup-error {
-  color: #ff0000;
-}
-
-.error {
-  color: #ff0000;
-}
-
-.has-error .control-label {
-  color: #ff0000;
-}
-.has-error .form-control {
-  border-color: #ff0000;
-}
-.has-error .input-group-addon {
-  border-color: #ff0000;
-  color: #ff0000;
-}
-/* END SIGN UP */
-
-/* MY INFO */
-.user-details {
-    float: left;
-}
-
-/* END MY INFO */
-
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
